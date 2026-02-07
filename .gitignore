@@ -1,0 +1,108 @@
+###################################
+# 🔐 Secrets (MOST IMPORTANT)
+###################################
+
+.env
+.env.*
+*.env
+
+# API Keys / credentials
+secrets.json
+config.yaml
+credentials.yaml
+
+###################################
+# 🧠 Python
+###################################
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+###################################
+# 🧪 Virtual Environments
+###################################
+
+venv/
+myvenv/
+env/
+ENV/
+.venv/
+
+###################################
+# 📦 Build / Packaging
+###################################
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+###################################
+# 📊 Jupyter / Notebooks
+###################################
+
+.ipynb_checkpoints
+
+###################################
+# 📁 Logs / Runtime files
+###################################
+
+logs/
+*.log
+
+###################################
+# 💻 IDE Files
+###################################
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+###################################
+# 🖥️ OS Junk
+###################################
+
+.DS_Store
+Thumbs.db
+
+###################################
+# 🔥 AI / ML Specific
+###################################
+
+# Model files
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt
+
+# Vector DB / embeddings
+chroma/
+chromadb/
+vectorstore/
+faiss_index/
+
+# Large datasets
+data/
+datasets/
+
+###################################
+# 🐳 Docker
+###################################
+
+docker-compose.override.yml
+
+###################################
+# ⚡ Temporary Files
+###################################
+
+*.tmp
+*.swp  
